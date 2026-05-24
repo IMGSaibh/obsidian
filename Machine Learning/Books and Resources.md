@@ -1,2 +1,4 @@
 - [neural network zoo](https://www.asimovinstitute.org/neural-network-zoo/)
 - [LLM Visualisation](https://bbycroft.net/llm)
+- [AI from Scratch](https://aiengineeringfromscratch.com/)
+- 
