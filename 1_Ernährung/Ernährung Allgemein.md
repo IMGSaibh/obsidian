@@ -21,4 +21,3 @@
 ***
 ## Sport
 * Krafttraining
-* 
