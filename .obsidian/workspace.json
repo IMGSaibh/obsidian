@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Books and Resources.md",
+                "file": "Music Theory/Picking Techniques/Travis Picking basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Books and Resources"
+              "title": "Travis Picking basics"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Books and Resources.md",
+                "file": "Music Theory/Picking Techniques/Travis Picking basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Books and Resources"
+              "title": "Rückverweise auf Travis Picking basics"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Books and Resources.md",
+                "file": "Music Theory/Picking Techniques/Travis Picking basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von Books and Resources öffnen"
+              "title": "Ausgehende Links von Travis Picking basics öffnen"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Books and Resources.md",
+                "file": "Music Theory/Picking Techniques/Travis Picking basics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Books and Resources"
+              "title": "Gliederung von Travis Picking basics"
             }
           },
           {
@@ -195,11 +195,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "edbd001c4fd5ea53",
+  "active": "d81b973760022d03",
   "lastOpenFiles": [
+    "Training/Sprossenwand/Unbenannt.md",
+    "Machine Learning/Books and Resources.md",
     "Unbenannt 2.base",
     "Unbenannt.base",
-    "Unbenannt 1.base",
-    "Machine Learning/Books and Resources.md"
+    "Unbenannt 1.base"
   ]
 }
