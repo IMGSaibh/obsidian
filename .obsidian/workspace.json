@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Music Theory/Picking Techniques/Travis Picking basics.md",
+                "file": "Machine Learning/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Travis Picking basics"
+              "title": "Introduction"
             }
           }
         ]
@@ -197,8 +197,13 @@
   },
   "active": "d81b973760022d03",
   "lastOpenFiles": [
-    "Training/Sprossenwand/Unbenannt.md",
     "Machine Learning/Books and Resources.md",
+    "Machine Learning/Introduction.md",
+    "Music Theory/Picking Techniques/Travis Picking basics.md",
+    "Training/Sprossenwand/Bauch.md",
+    "Training/Sprossenwand/Pictures/Bauch-1.jpg",
+    "Training/Sprossenwand/Pictures",
+    "Training/Sprossenwand/Unbenannt.md",
     "Unbenannt 2.base",
     "Unbenannt.base",
     "Unbenannt 1.base"
