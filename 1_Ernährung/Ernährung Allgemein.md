@@ -19,5 +19,3 @@
 * Omega 3 Fettsäuren
 * Kaltes Wasser vor jeder Mahlzeit
 ***
-## Sport
-* Krafttraining
