@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Books and Resources.md",
+                "file": "Machine Learning/Supervised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Books and Resources"
+              "title": "Supervised"
             }
           }
         ]
@@ -197,12 +197,17 @@
   },
   "active": "d81b973760022d03",
   "lastOpenFiles": [
-    "Music Theory/Chords/Chord Progression.md",
-    "1_Ernährung/Ernährung Allgemein.md",
     "Machine Learning/Books and Resources.md",
+    "Machine Learning/Reinforcement learning.md",
+    "Machine Learning/Semi-Supervised.md",
+    "Machine Learning/Supervised.md",
+    "Machine Learning/Unsupervised.md",
+    "1_Ernährung/Körperwerte.md",
+    "1_Ernährung/Ernährung Allgemein.md",
+    "Training/Sprossenwand/Pictures/Bauch-2.jpg",
+    "Music Theory/Chords/Chord Progression.md",
     "Music Theory/Picking Techniques/Travis Picking basics.md",
     "Training/Sprossenwand/Bauch.md",
-    "Machine Learning/Introduction.md",
     "Training/Sprossenwand/Pictures/Bauch-1.jpg",
     "Training/Sprossenwand/Pictures",
     "Training/Sprossenwand/Unbenannt.md",
