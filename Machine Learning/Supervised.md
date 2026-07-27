@@ -12,4 +12,4 @@
 + Das Label **$y_i$** zum Beispiel $x_i$
 	+ 
 
-[^1]: Ein Vektor der für jede Dimension ein Wert hat. Der Wert beschreibt das Beispiel auf irgendeine Art und Weise. Der Wert wird feature genannt.  
+[^1]: Ein Vektor der für jede Dimension ein Wert hat. Der Wert beschreibt das Beispiel auf irgendeine Art und Weise. Der Wert wird feature genannt. 
