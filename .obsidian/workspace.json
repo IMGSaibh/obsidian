@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Supervised.md",
+                "file": "Machine Learning/Unsupervised.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Supervised"
+              "title": "Unsupervised"
             }
           }
         ]
@@ -198,11 +198,11 @@
   "active": "d81b973760022d03",
   "lastOpenFiles": [
     "Machine Learning/Semi-Supervised.md",
+    "Machine Learning/Supervised.md",
     "Machine Learning/Reinforcement learning.md",
     "Machine Learning/Books and Resources.md",
     "Music Theory/Chords/Chord Progression.md",
     "Music Theory/Picking Techniques/Travis Picking basics.md",
-    "Machine Learning/Supervised.md",
     "Test.md",
     "Machine Learning/Unsupervised.md",
     "1_Ernährung/Körperwerte.md",
