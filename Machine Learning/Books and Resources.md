@@ -1,3 +1,4 @@
 - [neural network zoo](https://www.asimovinstitute.org/neural-network-zoo/)
 - [LLM Visualisation](https://bbycroft.net/llm)
 - [AI from Scratch](https://aiengineeringfromscratch.com/)
+- [Reinforcement Learning-An Introduction-](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
