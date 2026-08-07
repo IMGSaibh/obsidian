@@ -18,3 +18,6 @@
 	+ Algorithmus von supervised learning soll ein Modell anhand eines Datensatzes erstellen, dass einen Merkmals Vektor $x$ als Eingabe bekommt. $x$ könnte ein Sample (Person) sein und es wird die Wahrscheinlichkeit ausgeben ob Person an Krebs erkrankt ist.
 
 [^1]: Ein Vektor der für jede Dimension ein Wert hat. Der Wert beschreibt das Beispiel auf irgendeine Art und Weise. Der Wert wird feature genannt. 
+***
+# How it works
+
