@@ -1,8 +1,14 @@
 ***
-Im rechtwinkligen Dreieck
+### Umrechnungen
++ Umfang des Kreises
+	+ $U=2\pi * r = 1$
++ $360\degree = 2\pi$
++ Periode: $\pi$
+### Im rechtwinkligen Dreieck
 + $\color{green}sin(x) = \frac{Gegenkathete}{Hypothenuse}$
 + $\color{blue}\cos(x) = \frac{Ankathete}{Hypotenuse}$
-+ $\tan(x) = \frac{Gegenkathete}{Ankathete}$
++ $\color{violet}\tan(x) = \frac{Gegenkathete}{Ankathete}$
+
 ```tikz
 \begin{document}
 \begin{tikzpicture}[>=stealth, scale=3] 
@@ -20,14 +26,23 @@ Im rechtwinkligen Dreieck
 %Dreieck im 1. Quadranten 
 \coordinate (O) at (0,0); 
 \coordinate (A) at (0.866,0); 
-\coordinate (B) at (0.866,0.5); 
+\coordinate (B) at (0.866,0.5);
+\coordinate (T_start) at (1,0); 
+% Schnittpunkt Tangente/Hypotenu
 % Punkt auf dem Kreis (cos(30°), sin(30°)) 
+\coordinate (T_end) at (1,0.577); 
+% 4. DRAW: Verlängerung der Hypotenuse bis zur Tangente 
+\draw[thick, red, dashed] (B) -- (T_end);
+% 5. DRAW: Tangens-Strecke (auf der Berührlinie bei x = 1)
+\draw[thick, violet, <->] (T_start) -- (T_end) node[midway, right] {$\tan\alpha$};
+
+
 % Dreiecksseiten zeichnen 
-\draw[thick, red] (O) -- (B) node[midway, above left] {$r=1$}; 
+\draw[thick, red] (O) -- (B) node[midway, above left] {$r=1$};
 % Hypotenuse 
 \draw[thick, blue] (O) -- (A) node[midway, below] {$\cos\alpha$}; 
 % Ankathete 
-\draw[thick, green] (A) -- (B) node[midway, right] {$\sin\alpha$}; 
+\draw[thick, green] (A) -- (B) node[midway, left] {$\sin\alpha$}; 
 % Gegenkathete 
 % Rechten Winkel markieren (Punkt A) 
 \draw (0.816,0) -- (0.816,0.05) -- (0.866,0.05); 
@@ -39,5 +54,4 @@ Im rechtwinkligen Dreieck
 \end{tikzpicture}
 \end{document}
 ```
-
-
+***
