@@ -55,3 +55,50 @@
 \end{document}
 ```
 ***
++ Perioden:
+```tikz
+\usepackage{pgfplots} 
+\begin{document} 
+\begin{tikzpicture}[scale=1] 
+\begin{axis}[ 
+axis lines = middle, 
+xlabel = $x$, 
+ylabel = $y$, 
+xtick = {0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi}, 
+xticklabels = {$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$}, 
+ytick = {-1, 1}, 
+ymin = -1.3, 
+ymax = 1.3, 
+domain = 0:4*pi, 
+samples = 200, 
+width = 14cm, 
+height = 6cm, 
+xlabel style={below right}, 
+ylabel style={above left}, ] 
+\addplot[green, thick] {sin(deg(x))}; 
+\addplot[blue, thick] {cos(deg(x))};
+\addplot[violet, thick] {tan(deg(x))}; 
+\end{axis} 
+\end{tikzpicture} 
+\end{document}
+```
+
+
+### Taschenrechner
++ Wenn Verhältnis gegeben
+	+ **$\sin( \frac{1}{2}$)** -> für den Winkel im TR arcsinus eingeben: **$\sin^{-1} (\frac{1}{2}) = 30 \degree$**
++ Wenn Winkel gegeben $\sin (30\degree) = \frac{1}{2}$
+	+ Der Winkel im ersten Quadrant $I$
+	+ Quadrant $II:180 \degree \cdot 30 \degree = 150 \degree$
++ Beispiel sin(x) Quadrant $I$ und $II$
+	+ Gegeben: 0.515
+		+ Quadrant $I$ : TR Eingabe $\sin^{-1} (0.515) = 30.99 \degree$
+		+ Quadrant $II$ $180 \degree - 30.99 \degree = 149.01 \degree$
++ Beispiel cos(x)
+	+ **Positiv (+)** ist der Kosinus im **1. und 4. Quadranten**.
+	- **Negativ (-)** ist der Kosinus im **2. und 3. Quadranten**.
+	+ Gegeben $\cos(-0.8)$ und Referenzwinkel $\cos(0.8)$
+		+ $II: \cos^{-1}(-0.8) = 143.130$
+		+ $III: 360 \degree - 143.130 \degree = 216.9 \degree$
+		+ $I: \cos^{-1}(0.8) = 36.87 \degree$
+		+ $IV: 360 \degree - 36.87 \degree = 323.13 \degree$
