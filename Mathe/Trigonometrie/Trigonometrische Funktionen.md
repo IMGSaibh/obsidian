@@ -4,6 +4,8 @@
 	+ $U=2\pi * r = 1$
 + $360\degree = 2\pi$
 + Periode: $\pi$
++ $\sin^2(30\degree) = (\sin(30\degree))^2 = 0.5^2 = 0.25$
+	+ Es bedeutet, dass du zuerst ganz normal den Sinus von $x$ berechnest und **das Endergebnis** danach hoch 2 nimmst.
 ### Im rechtwinkligen Dreieck
 + $\color{green}sin(x) = \frac{Gegenkathete}{Hypothenuse}$
 + $\color{blue}\cos(x) = \frac{Ankathete}{Hypotenuse}$
