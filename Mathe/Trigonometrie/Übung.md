@@ -66,10 +66,30 @@ $$
 ### Übung 3
 $$
 \begin{align*}
-\cos^{3}x - 2 \cdot \cos x \cdot\sin^2x=0 \\
-\cos x (\cos^2x - 2 \cdot \sin^2x)=0 \\
-\cos^2x = 1 - \sin^2x \\
-\cos x \cdot (1-\sin^2x - 2 \cdot \sin^2x) =0 \\
-\cos x \cdot (1-3 \cdot \sin^2x)=0
+\cos^{3}x - 2 \cdot \cos x \cdot\sin^2x &= 0 \quad &&| \text{ Ausklammern von } \cos x \\
+\cos x (\cos^2x - 2 \cdot \sin^2x) &= 0 \quad &&| \text{ Vorbereitung zur Substitution} \\
+\cos^2x &= 1 - \sin^2x \quad &&| \text{ Nutze Identität (Trigonometrischer Pythagoras)} \\
+\cos x \cdot (1-\sin^2x - 2 \cdot \sin^2x) &= 0 \quad &&| \text{ Setze Identität oben ein} \\
+\cos x \cdot (1-3 \cdot \sin^2x) &= 0 \quad &&| \text{ Zusammenfassen in der Klammer} \\
+1-3 \cdot \sin^2x &= 0 \quad &&| \text{ Fall 1: Klammer wird Null } (+3\cdot\sin^2x) \\
+1 &= 3 \cdot \sin^2x \quad &&| :3 \\
+\sin^2x &= \frac{1}{3} \quad &&| \pm\sqrt{\dots} \\
+\sin x &= \pm \sqrt{\frac{1}{3}} \\
+\\
+\textbf{Lösungen für das Intervall } [0^\circ; 360^\circ]\text{:} \\
+\\
+\text{\bf Aus dem Kosinus-Teil } (\cos x = 0)\text{:} \\
+\mathbf{x_1} &\mathbf{= 90^\circ} \quad \left(\frac{\pi}{2}\right) \\
+\mathbf{x_2} &\mathbf{= 270^\circ} \quad \left(\frac{3\pi}{2}\right) \\
+\\
+\text{\bf Aus dem Sinus-Teil } \left(\sin x = \pm \sqrt{\frac{1}{3}} \approx \pm 0{,}5774\right)\text{:} \\
+\mathbf{x_3} &\mathbf{\approx 35{,}26^\circ} \quad \text{(1. Quadrant, positiv)} \\
+\mathbf{x_4} &\mathbf{\approx 144{,}74^\circ} \quad \text{(2. Quadrant, positiv)} \\
+\mathbf{x_5} &\mathbf{\approx 215{,}26^\circ} \quad \text{(3. Quadrant, negativ)} \\
+\mathbf{x_6} &\mathbf{\approx 324{,}74^\circ} \quad \text{(4. Quadrant, negativ)}
 \end{align*}
 $$
++ Hier steht ein **Produkt, das Null ergeben soll**. Etwas $\cdot$ Etwas = 0. In der Mathematik gilt hier der **Satz vom Nullprodukt**: _Ein Produkt wird genau dann Null, wenn mindestens einer der Faktoren Null ist.
++ Das bedeutet, es müssen zwei völlig getrennte Pfade untersucht werden, damit die Gleichung aufgeht:
+1. **Der Kosinus-Teil:** Wenn das vordere $\cos x = 0$  wird, ist es völlig egal, was in der Klammer steht (denn $0 \cdot \text{Klammer} = 0$).
+2. **Der Sinus-Teil:** Wenn die hintere Klammer $(1 - 3 \cdot \sin^2x) = 0$ wird, ist es völlig egal, was vor der Klammer steht (denn $\cos x \cdot 0 = 0$.
