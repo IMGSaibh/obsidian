@@ -62,3 +62,14 @@ x_3 &= 180^\circ \quad \text{nur ein Winkel an position -1 auf dem Einheitskreis
 \end{align*}
 $$
 
+***
+### Übung 3
+$$
+\begin{align*}
+\cos^{3}x - 2 \cdot \cos x \cdot\sin^2x=0 \\
+\cos x (\cos^2x - 2 \cdot \sin^2x)=0 \\
+\cos^2x = 1 - \sin^2x \\
+\cos x \cdot (1-\sin^2x - 2 \cdot \sin^2x) =0 \\
+\cos x \cdot (1-3 \cdot \sin^2x)=0
+\end{align*}
+$$
