@@ -90,10 +90,12 @@ ylabel style={above left}, ]
 + Wenn Winkel gegeben $\sin (30\degree) = \frac{1}{2}$
 	+ Der Winkel im ersten Quadrant $I$
 	+ Quadrant $II:180 \degree \cdot 30 \degree = 150 \degree$
-+ Beispiel sin(x) Quadrant $I$ und $II$
++ **Beispiel sin(x) Quadrant $I$ und $II$**
 	+ Gegeben: 0.515
-		+ Quadrant $I$ : TR Eingabe $\sin^{-1} (0.515) = 30.99 \degree$
-		+ Quadrant $II$ $180 \degree - 30.99 \degree = 149.01 \degree$
+		+ Quadrant $I :$ TR Eingabe $\alpha = \sin^{-1} (0.515) = 31 \degree$
+		+ Quadrant $II: 180 \degree - \alpha \degree = 149 \degree$
+		+ Quadrant $III: 180 \degree + \alpha = 211\degree$
+		+ Quadrant $IV: 360 \degree - \alpha = 329\degree$
 + Beispiel cos(x)
 	+ **Positiv (+)** ist der Kosinus im **1. und 4. Quadranten**.
 	- **Negativ (-)** ist der Kosinus im **2. und 3. Quadranten**.
@@ -102,3 +104,18 @@ ylabel style={above left}, ]
 		+ $III: 360 \degree - 143.130 \degree = 216.9 \degree$
 		+ $I: \cos^{-1}(0.8) = 36.87 \degree$
 		+ $IV: 360 \degree - 36.87 \degree = 323.13 \degree$
+### Übung
++ Es ist ein Mix aus Rad und Winkel gegeben $$\begin{align}\text{Gegeben:}\quad \sin( \frac{x}{2} - \frac{\pi}{3} ) &= -0.25  \end{align} $$
++ Alles in Winkel umwandeln:
+	+ $\text{Rad}: \theta=\frac{x}{2} - \frac{\pi}{3} \to \theta=\frac{x}{2} - 60 \degree$
+	+ $Winkel: \to TR:  \ \alpha = \sin^{-1}(-0.25) = -14.5 \degree$
++ Schritt 1 berechnen von $\theta$:
+$$
+\begin{aligned}
+\text{Quadrant I (+):} \quad \theta_1 &= \alpha = 14.48^\circ \\
+\text{Quadrant II (+):} \quad \theta_2 &= 180^\circ - \alpha = 165.52^\circ \\
+\text{Quadrant III (-):} \quad \theta_3 &= 180^\circ + \alpha = 194.48^\circ \quad \\
+\text{Quadrant IV (-):} \quad \theta_4 &= 360^\circ - \alpha = 345.52^\circ \quad
+\end{aligned}
+$$
++ Weil der Wert $-0.25$ gegeben war, sind ist nur der $III$ und $IV$ Quadrant eine echte Lösung 
