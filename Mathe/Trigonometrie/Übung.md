@@ -27,3 +27,38 @@ x_4 &= \color{green}{2 \cdot (345.52^\degree + 60^\degree)} &&= \color{green}{\m
 $$
 ***
 ### Übung 2
+$$\begin{align}\text{Gegeben:}\quad \cos(x) + \cos(2x) = 0 \\   \end{align} $$
++ $\cos(2x)$ so umschreiben, dass nur noch normales $x$ darin vorkommt. Sonst kann Gleichung nicht aufgelöst werden. Nutze Doppelwinkelformeln (Identität)
++ **Für das Kosinus-Doppelwinkel-Theorem gibt es drei Varianten:**
+	+ $\cos(2x) = \cos^2(x) - \sin^2(x)$
+	+ $\cos(2x) = 1 - 2\sin^2(x)$
+	+ $\cos(2x) = 2\cos^2(x) - 1$
++ Wir nutzen die Struktur die exakt wie eine normale quadratische Gleichung aussieht $2u^2+u-1=0$
+$$
+\begin{align*}
+\text{Nutze Identität:} \quad \cos(2x) &= 2\cos^2(x) - 1 \\
+\\
+\cos(x) + \left(2\cos^2(x) - 1\right) &= 0 \\
+2\cos^2(x) + \cos(x) - 1 &= 0 \\
+\\
+\text{Substitution:} \quad u &= \cos(x) \\
+2u^2 + u - 1 &= 0 \\
+\\
+\text{p-q-Formel:} \quad u_{1,2} &= \frac{-1 \pm \sqrt{1^2 - 4 \cdot 2 \cdot (-1)}}{2 \cdot 2} \\
+u_{1,2} &= \frac{-1 \pm \sqrt{9}}{4} = \frac{-1 \pm 3}{4} \\
+\\
+\implies u_1 = \frac{2}{4} = \frac{1}{2} \quad &\text{und} \quad u_2 = -\frac{4}{4} = -1
+\end{align*}
+$$
++ $u$ wieder zurück substituieren $u=\cos(x)$
+$$
+\begin{align*}
+\text{Für das Intervall } [0^\circ; 360^\circ]: \\
+\textbf{Fall 1:} \quad \cos(x) &= \frac{1}{2} \\
+x_1 &= 60^\circ \quad \text{Qudarant I}\\
+x_2 &= 300^\circ \quad \text{Qudarant VI}\\
+\textbf{Fall 2:} \quad \cos(x) &= -1 \\
+x_3 &= 180^\circ \quad \text{nur ein Winkel an position -1 auf dem Einheitskreis}
+\end{align*}
+$$
+
