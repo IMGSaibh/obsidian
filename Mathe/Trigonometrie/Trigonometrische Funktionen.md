@@ -83,7 +83,7 @@ ylabel style={above left}, ]
 \end{document}
 ```
 
-
+***
 ### Taschenrechner
 + Wenn Verhältnis gegeben
 	+ **$\sin( \frac{1}{2}$)** -> für den Winkel im TR arcsinus eingeben: **$\sin^{-1} (\frac{1}{2}) = 30 \degree$**
@@ -104,18 +104,4 @@ ylabel style={above left}, ]
 		+ $III: 360 \degree - 143.130 \degree = 216.9 \degree$
 		+ $I: \cos^{-1}(0.8) = 36.87 \degree$
 		+ $IV: 360 \degree - 36.87 \degree = 323.13 \degree$
-### Übung
-+ Es ist ein Mix aus Rad und Winkel gegeben $$\begin{align}\text{Gegeben:}\quad \sin( \frac{x}{2} - \frac{\pi}{3} ) &= -0.25  \end{align} $$
-+ Alles in Winkel umwandeln:
-	+ $\text{Rad}: \theta=\frac{x}{2} - \frac{\pi}{3} \to \theta=\frac{x}{2} - 60 \degree$
-	+ $Winkel: \to TR:  \ \alpha = \sin^{-1}(-0.25) = -14.5 \degree$
-+ Schritt 1 berechnen von $\theta$:
-$$
-\begin{aligned}
-\text{Quadrant I (+):} \quad \theta_1 &= \alpha = 14.48^\circ \\
-\text{Quadrant II (+):} \quad \theta_2 &= 180^\circ - \alpha = 165.52^\circ \\
-\text{Quadrant III (-):} \quad \theta_3 &= 180^\circ + \alpha = 194.48^\circ \quad \\
-\text{Quadrant IV (-):} \quad \theta_4 &= 360^\circ - \alpha = 345.52^\circ \quad
-\end{aligned}
-$$
-+ Weil der Wert $-0.25$ gegeben war, sind ist nur der $III$ und $IV$ Quadrant eine echte Lösung 
+***
