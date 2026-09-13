@@ -15,6 +15,10 @@
 		+ $\cos(2\alpha)=1-2\cdot \sin^2(\alpha)$
 	+ Tangens des doppelten Winkels
 		+ $\tan(2\alpha)=\frac{2\cdot \tan(\alpha)}{1-\tan^2(\alpha)}$
+
+### Punkt auf dem Einheitskreis
++ Ein Punkt im Einheitskreis Winkel x hat die Koordinaten:
++ $P(x)=(\cos(x); \sin(x))$
 ### Im rechtwinkligen Dreieck
 + $\color{green}sin(x) = \frac{Gegenkathete}{Hypothenuse}$
 + $\color{blue}\cos(x) = \frac{Ankathete}{Hypotenuse}$
@@ -230,9 +234,12 @@ xlabel style={below right},
 ylabel style={above left},
 legend style={at={(1.02,0.5)}, anchor=west},
 ]
+\addplot[blue, thick] {sin(deg(x)};
+\addlegendentry{$\sin(x)$}
 \addplot[red, thick] {cos(deg(x)};
 \addlegendentry{$\cos(x)$}
 \end{axis}
 \end{tikzpicture}
 \end{document}
 ```
+ 

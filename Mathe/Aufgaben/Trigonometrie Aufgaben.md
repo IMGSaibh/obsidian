@@ -40,8 +40,10 @@ Ein Produkt ist Null, wenn mindestens ein Faktor Null ist $\Rightarrow$ zwei Fä
 
 ---
 
-## Fall 1: $2\cos(x) \implies \cos(x) = 0$
+##### Fall 1: $2\cos(x) \implies \cos(x) = 0$
 + cos(x)=0 bedeutet der Punkt hat x-Koordinate 0
+	+ cos(x) meint hier $\cos(\alpha)=0$
+	+ also Winkel ist 0 und damit ist man auf der x--Achse unterwegs
 + Das ist oben und unten auf den Kreis bei genau diesen Winkeln
 
 $$x_1 = \frac{\pi}{2}, \qquad x_2 = \frac{3\pi}{2}$$
@@ -56,14 +58,77 @@ $$
 $$
 
 **Schnittpunkte:**
-$$S_1 = \left(\frac{\pi}{2};\, -1\right), \qquad S_2 = \left(\frac{3\pi}{2};\, -1\right)$$
+$$\color{green}S_1 = \left(\frac{\pi}{2};\, -1\right), \qquad S_2 = \left(\frac{3\pi}{2};\, -1\right)$$
 
 ---
 
-## Fall 2: $1-2\sin(x) = 0 \implies 2\sin(x) = 1 \implies \sin(x) = \dfrac{1}{2}$
+#### Fall 2: $1-2\sin(x) = 0 \implies 2\sin(x) = 1 \implies \sin(x) = \dfrac{1}{2}$
++ Im TR $\implies x=\arcsin\left( \frac{1}{2} \right) \implies \sin^{-1}\left( \frac{1}{2} \right) = 30 \degree = \frac{\pi}{6}$
 
 $$x_3 = \frac{\pi}{6}, \qquad x_4 = \pi - \frac{\pi}{6} = \frac{5\pi}{6}$$
 
++ Sobald man die **erste** Lösung kennt $x_3 = \frac{\pi}{6}$, findet man die zweite nicht durch erneutes Rechnen, sondern durch eine **Symmetrieeigenschaft** des Sinus.
++ zeichne eine **waagrechte Linie** auf der Höhe $y=12y = \frac12 y=21$​ ein. Diese Linie schneidet den Kreis an **zwei** Stellen:
+
+- einmal **rechts** von der senkrechten Achse (das ist unser $\frac{\pi}{6}$, also 30°)
+- einmal **links** von der senkrechten Achse (spiegelverkehrt dazu)
+- Diese Spiegelung wird durch folgende Identität beschrieben:
+	- $sin⁡(π−x)=sin(x)$
+- **Warum das gilt:** Der Punkt bei Winkel $x$ und der Punkt bei Winkel $(π−x)$ sind Spiegelbilder zueinander
+- Wenn $x3=\frac{\pi}{6}$ ​ eine Lösung von $sin⁡(x)=\frac{1}{2}$​ ist, dann ist automatisch auch: 
+$$
+\begin{align*}
+x_{4}&=\pi - x_{3} \\
+&=\pi-\frac{\pi}{6} \\
+&=\frac{6\pi}{6} - \frac{\pi}{6} \\
+&=\frac{5\pi}{6}
+\end{align*}
+$$
+***
+
+```tikz
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[scale=5]
+
+% Einheitskreis
+\draw[thick] (0,0) circle (1);
+
+% Achsen
+\draw[->] (-1.3,0) -- (1.3,0) node[right] {$\cos(x)$};
+\draw[->] (0,-1.3) -- (0,1.3) node[above] {$\sin(x)$};
+
+% Waagrechte Hilfslinie bei y = 0.5
+\draw[dashed, gray] (-1.1,0.5) -- (1.1,0.5) node[right, black] {$y=\frac{1}{2}$};
+
+% Punkt bei pi/6 (30°)
+\coordinate (P1) at (cos{30}, sin{30});
+\filldraw[red] (P1) circle (0.02);
+\draw[red, thick] (0,0) -- (P1);
+\node[above right, red] at (P1) {$x_3=\frac{\pi}{6}$};
+
+% Punkt bei 5pi/6 (150°)
+\coordinate (P2) at (cos{150}, sin{150});
+\filldraw[blue] (P2) circle (0.02);
+\draw[blue, thick] (0,0) -- (P2);
+\node[above left, blue] at (P2) {$x_4=\frac{5\pi}{6}$};
+
+% Winkelbögen
+\draw[red] (0.3,0) arc (0:30:0.3);
+\draw[blue] (0.3,0) arc (0:150:0.3);
+
+% Senkrechte Linien zur x-Achse (zeigen cos-Wert = unterschiedlich)
+\draw[red, dotted] (P1) -- (cos{30}, 0);
+\draw[blue, dotted] (P2) -- (cos{150}, 0);
+
+% Gemeinsame Höhe (sin-Wert) hervorheben
+\draw[green!60!black, thick, <->] (1.15,0) -- (1.15,0.5);
+\node[right, green!60!black] at (1.15,0.25) {$\sin=\frac12$};
+
+\end{tikzpicture}
+\end{document}
+```
+***
 **Für $x_3 = \dfrac{\pi}{6}$:**
 $$\cos\left(\frac{\pi}{6}\right) = \frac{\sqrt{3}}{2}$$
 $$y_3 = -1 + 2\cdot\frac{\sqrt{3}}{2} = \sqrt{3} - 1 \approx 0{,}73$$
@@ -73,10 +138,8 @@ $$\cos\left(\frac{5\pi}{6}\right) = -\frac{\sqrt{3}}{2}$$
 $$y_4 = -1 + 2\cdot\left(-\frac{\sqrt{3}}{2}\right) = -\sqrt{3} - 1 \approx -2{,}73$$
 
 **Schnittpunkte:**
-$$S_3 = \left(\frac{\pi}{6};\, \sqrt{3}-1\right), \qquad S_4 = \left(\frac{5\pi}{6};\, -\sqrt{3}-1\right)$$
-
----
-
+$$\color{green}S_3 = \left(\frac{\pi}{6};\, \sqrt{3}-1\right), \qquad S_4 = \left(\frac{5\pi}{6};\, -\sqrt{3}-1\right)$$
+***
 ## Zusammenfassung
 
 | Punkt | $x$-Wert | $y$-Wert (exakt) | $y$-Wert (gerundet) |
@@ -95,3 +158,4 @@ $$f\left(\frac{\pi}{6}\right) = -1 + 2\cos\left(\frac{\pi}{6}\right) = -1 + \sqr
 $$g\left(\frac{\pi}{6}\right) = -1 + 2\sin\left(\frac{\pi}{3}\right) = -1 + 2\cdot\frac{\sqrt{3}}{2} = -1 + \sqrt{3}$$
 
 $$\Rightarrow f\left(\frac{\pi}{6}\right) = g\left(\frac{\pi}{6}\right) \checkmark$$
+
