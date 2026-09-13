@@ -6,6 +6,15 @@
 + Periode: $\pi$
 + $\sin^2(30\degree) = (\sin(30\degree))^2 = 0.5^2 = 0.25$
 	+ Es bedeutet, dass du zuerst ganz normal den Sinus von $x$ berechnest und **das Endergebnis** danach hoch 2 nimmst.
++ **Doppelwinkelsatz (oder die Doppelwinkelformeln)** in der Trigonometrie
+	+ Sinus des doppelten Winkels
+		+ $\sin(2\alpha) = 2 \cdot \sin(\alpha) \cdot \cos(\alpha)$
+	+ Kosinus des doppelten Winkels
+		+ $\cos(2\alpha)=\cos^2(\alpha)-\sin^2(\alpha)$
+		+ $\cos(2\alpha)=2\cdot \cos^2(\alpha)-1$
+		+ $\cos(2\alpha)=1-2\cdot \sin^2(\alpha)$
+	+ Tangens des doppelten Winkels
+		+ $\tan(2\alpha)=\frac{2\cdot \tan(\alpha)}{1-\tan^2(\alpha)}$
 ### Im rechtwinkligen Dreieck
 + $\color{green}sin(x) = \frac{Gegenkathete}{Hypothenuse}$
 + $\color{blue}\cos(x) = \frac{Ankathete}{Hypotenuse}$
