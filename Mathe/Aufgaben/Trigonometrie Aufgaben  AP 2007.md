@@ -1,5 +1,5 @@
 ***
-+ AP 2007
+## Aufgabe
 + Gegeben sind die reellen Funktionen:
 $$
 \begin{align*}
