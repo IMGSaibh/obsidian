@@ -1,4 +1,5 @@
 ***
++ AP 2007
 + Gegeben sind die reellen Funktionen:
 $$
 \begin{align*}
@@ -9,3 +10,6 @@ $$
 \end{align*}
 $$
 
++ 4.1.0 In dieser Teilaufgabe gilt $a=1$
++ 4.1.1 Berechnen sie die Koordinaten der Schnittpunkte der Funktion $f_{1}$ und $g_{1}$
++ 
