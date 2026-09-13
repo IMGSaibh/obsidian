@@ -57,7 +57,7 @@
 \end{document}
 ```
 ***
-+ Perioden:
++ Funktionen 1:
 ```tikz
 \usepackage{pgfplots} 
 \begin{document} 
@@ -107,3 +107,95 @@ ylabel style={above left}, ]
 		+ $I: \cos^{-1}(0.8) = 36.87 \degree$
 		+ $IV: 360 \degree - 36.87 \degree = 323.13 \degree$
 ***
++ Funktionen 2:
+
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\begin{axis}[
+axis lines = middle,
+xlabel = $x$,
+ylabel = $y$,
+xtick = {0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi},
+xticklabels = {$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+ytick = {-1, 1},
+ymin = -2.3,
+ymax = 2.3,
+domain = 0:4*pi,
+samples = 200,
+width = 14cm,
+height = 6cm,
+xlabel style={below right},
+ylabel style={above left},
+legend style={at={(1.02,0.5)}, anchor=west},
+]
+\addplot[green, thick] {2*sin(deg(x))};
+\addlegendentry{$2\sin(x)$}
+\addplot[blue, thick] {0.5*sin(deg(x))};
+\addlegendentry{$\frac{1}{2}\sin(x)$}
+\addplot[violet, thick] {sin(deg(x))};
+\addlegendentry{$\sin(x)$}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
+
++ Funktionen 3:
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\begin{axis}[
+axis lines = middle,
+xlabel = $x$,
+ylabel = $y$,
+xtick = {-3*pi/2, -pi, -pi/2,0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi},
+xticklabels = {$-\frac{3\pi}{2}$, $-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+ytick = {-1, 1},
+ymin = -2.3,
+ymax = 2.3,
+domain = -2*pi:4*pi,
+samples = 200,
+width = 14cm,
+height = 6cm,
+xlabel style={below right},
+ylabel style={above left},
+legend style={at={(1.02,0.5)}, anchor=west},
+]
+\addplot[red, thick] {sin(deg(x-pi/2))};
+\addlegendentry{$\sin(x-\frac{\pi}{2})$}
+\addplot[blue, thick] {sin(deg(x+pi/2))};
+\addlegendentry{$\sin(x+\frac{\pi}{2})$}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
++ Funktionen 4: 
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\begin{axis}[
+axis lines = middle,
+xlabel = $x$,
+ylabel = $y$,
+xtick = {-3*pi/2, -pi, -pi/2,0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi},
+xticklabels = {$-\frac{3\pi}{2}$, $-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+ytick = {-2,-1,1,2},
+ymin = -2.5,
+ymax = 2.5,
+domain = -2*pi:4*pi,
+samples = 200,
+width = 14cm,
+height = 6cm,
+xlabel style={below right},
+ylabel style={above left},
+legend style={at={(1.02,0.5)}, anchor=west},
+]
+\addplot[red, thick] {1.5*sin(deg(2*x+pi/2))};
+\addlegendentry{$1.5\sin(2x+\frac{\pi}{2})$}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
