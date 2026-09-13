@@ -20,21 +20,29 @@ $$f(x) = -1 + 2\cos(x), \qquad g(x) = -1 + 2\sin(2x), \qquad x \in [0;2\pi]$$
 
 ## Gleichsetzen
 
-$$-1 + 2\cos(x) = -1 + 2\sin(2x)$$
-
-$$2\cos(x) = 2\sin(2x)$$
+$$
+\begin{align*}
+-1 + 2\cos(x) &= -1 + 2\sin(2x) \\
+2\cos(x) &= 2\sin(2x)
+\end{align*}
+$$
 
 Doppelwinkelsatz $\sin(2x) = 2\sin(x)\cos(x)$ einsetzen:
 
-$$2\cos(x) = 4\sin(x)\cos(x)$$
-
-$$2\cos(x)\big[1 - 2\sin(x)\big] = 0$$
+$$
+\begin{align*}
+2\cos(x) &= 4\sin(x)\cos(x) \\
+2\cos(x)\big[1 - 2\sin(x)\big] &= 0 \quad \text{2cos(x) ausklammern}
+\end{align*}
+$$
 
 Ein Produkt ist Null, wenn mindestens ein Faktor Null ist $\Rightarrow$ zwei Fälle.
 
 ---
 
-## Fall 1: $\cos(x) = 0$
+## Fall 1: $2\cos(x) \implies \cos(x) = 0$
++ cos(x)=0 bedeutet der Punkt hat x-Koordinate 0
++ Das ist oben und unten auf den Kreis bei genau diesen Winkeln
 
 $$x_1 = \frac{\pi}{2}, \qquad x_2 = \frac{3\pi}{2}$$
 
@@ -52,7 +60,7 @@ $$S_1 = \left(\frac{\pi}{2};\, -1\right), \qquad S_2 = \left(\frac{3\pi}{2};\, -
 
 ---
 
-## Fall 2: $\sin(x) = \dfrac{1}{2}$
+## Fall 2: $1-2\sin(x) = 0 \implies 2\sin(x) = 1 \implies \sin(x) = \dfrac{1}{2}$
 
 $$x_3 = \frac{\pi}{6}, \qquad x_4 = \pi - \frac{\pi}{6} = \frac{5\pi}{6}$$
 

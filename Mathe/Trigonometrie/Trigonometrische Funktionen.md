@@ -208,3 +208,31 @@ legend style={at={(1.02,0.5)}, anchor=west},
 \end{tikzpicture}
 \end{document}
 ```
++ Funktionen 5:
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\begin{axis}[
+axis lines = middle,
+xlabel = $x$,
+ylabel = $y$,
+xtick = {-3*pi/2, -pi, -pi/2,0, pi/2, pi, 3*pi/2, 2*pi, 5*pi/2, 3*pi, 7*pi/2, 4*pi},
+xticklabels = {$-\frac{3\pi}{2}$, $-\pi$, $-\frac{\pi}{2}$, $0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$, $\frac{5\pi}{2}$, $3\pi$, $\frac{7\pi}{2}$, $4\pi$},
+ytick = {-2,-1,1,2},
+ymin = -2.5,
+ymax = 2.5,
+domain = -2*pi:4*pi,
+samples = 200,
+width = 14cm,
+height = 6cm,
+xlabel style={below right},
+ylabel style={above left},
+legend style={at={(1.02,0.5)}, anchor=west},
+]
+\addplot[red, thick] {cos(deg(x)};
+\addlegendentry{$\cos(x)$}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
