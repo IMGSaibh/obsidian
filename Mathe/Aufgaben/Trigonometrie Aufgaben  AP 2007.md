@@ -159,7 +159,7 @@ $$g\left(\frac{\pi}{6}\right) = -1 + 2\sin\left(\frac{\pi}{3}\right) = -1 + 2\cd
 
 $$\Rightarrow f\left(\frac{\pi}{6}\right) = g\left(\frac{\pi}{6}\right) \checkmark$$
 ***
-## Aufgabe 4.1.1
+## Aufgabe 4.1.2
 ```tikz
 \usepackage{pgfplots}
 \begin{document}
@@ -195,3 +195,4 @@ legend style={at={(1.02,0.5)}, anchor=west},
 \end{document}
 ```
 
+## Aufgabe 4.1.3
