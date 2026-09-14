@@ -1,5 +1,5 @@
 ***
-## Aufgabe
+## Aufgabe 4.1.1
 + Gegeben sind die reellen Funktionen:
 $$
 \begin{align*}
@@ -158,4 +158,40 @@ $$f\left(\frac{\pi}{6}\right) = -1 + 2\cos\left(\frac{\pi}{6}\right) = -1 + \sqr
 $$g\left(\frac{\pi}{6}\right) = -1 + 2\sin\left(\frac{\pi}{3}\right) = -1 + 2\cdot\frac{\sqrt{3}}{2} = -1 + \sqrt{3}$$
 
 $$\Rightarrow f\left(\frac{\pi}{6}\right) = g\left(\frac{\pi}{6}\right) \checkmark$$
+***
+## Aufgabe 4.1.1
+```tikz
+\usepackage{pgfplots}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+\begin{axis}[
+axis lines = middle,
+xlabel = $x$,
+ylabel = $y$,
+xtick = {0, pi/2, pi, 3*pi/2, 2*pi},
+xticklabels = {$0$, $\frac{\pi}{2}$, $\pi$, $\frac{3\pi}{2}$, $2\pi$},
+ytick = {-3,-2,-1,1,2,3},
+ymin = -4,
+ymax = 4,
+domain = 0:2*pi,
+samples = 200,
+width = 14cm,
+height = 6cm,
+xlabel style={below right},
+ylabel style={above left},
+legend style={at={(1.02,0.5)}, anchor=west},
+]
+% Parameter a festlegen
+\pgfmathsetmacro{\a}{1}
+
+\addplot[blue, thick] {-\a + 2*\a*cos(deg(x))};
+\addlegendentry{$f_a(x) = -a+2a\cos(x)$}
+
+\addplot[red, thick] {-\a + 2*sin(deg(2*x))};
+\addlegendentry{$g_a(x) = -a+2\sin(2x)$}
+
+\end{axis}
+\end{tikzpicture}
+\end{document}
+```
 
