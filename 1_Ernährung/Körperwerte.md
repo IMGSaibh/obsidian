@@ -20,3 +20,12 @@ Haferflocken Bowl
 |                |           |        |       | 774.16           |
 
 ***
+# Lebensmittel
+
+| Name        | Nährstoff-Name | Nährwerte pro 100 |
+| ----------- | -------------- | ----------------- |
+| Harzer Käse | Energie        | 121 kcal          |
+|             | Fett           | <0.5g             |
+|             | Zucker         | <0.5g             |
+|             | Eiweis         | 29g               |
+|             | Salz           | 2.5g              |
