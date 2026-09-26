@@ -22,10 +22,10 @@ Haferflocken Bowl
 ***
 # Lebensmittel
 
-| Name        | Nährstoff-Name | Nährwerte pro 100 |
-| ----------- | -------------- | ----------------- |
-| Harzer Käse | Energie        | 121 kcal          |
-|             | Fett           | <0.5g             |
-|             | Zucker         | <0.5g             |
-|             | Eiweis         | 29g               |
-|             | Salz           | 2.5g              |
+| Name                     | Brennwert pro 100 | Fett in g | Zucker in g | Eiweis in g | Salz in g |
+| ------------------------ | ----------------- | --------- | ----------- | ----------- | --------- |
+| Harzer Käse              | 121 kcal          | <0.5      | <0.5        | 29          | 2.5       |
+| Snack Salami Style Vegan | 367               | 20        | 3.9         | 36          | 2,7       |
+|                          |                   |           |             |             |           |
+|                          |                   |           |             |             |           |
+|                          |                   |           |             |             |           |
