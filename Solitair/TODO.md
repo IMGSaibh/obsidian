@@ -17,11 +17,3 @@
 ## Nice to have
 + [ ] Dieser Deal war lösbar. Du warst 84 % des Lösungswegs entfernt
 + [ ] Deine Partie wurde mit Zug 37 unlösbar.
-
-- Garantielabel
-	- informiert über das Bestehen einer Herstellergarantie von mehr als 2 Jahren für eine Ware in ihrer Gesamtheit und über die wesentlichen Kriterien der Garantie.
-	- Label situativ vor Abschluss von Verbraucherverträgen über Waren wahrnehmbar darzustellen und zugänglich zu machen.
-	- in Farbe und
-	- hinreichender Größe
-- Gewährleistungs
-- Bei der EU das label holen
