@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solitair/TODO.md",
+                "file": "Mathe/Trigonometrie/Trigonometrische Funktionen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Trigonometrische Funktionen"
             }
           }
         ]
@@ -200,6 +200,8 @@
   "active": "5fc32c087424071d",
   "lastOpenFiles": [
     "Mathe/Aufgaben/Trigonometrie Aufgaben  AP 2007.md",
+    "1_Ernährung/Körperwerte.md",
+    "Solitair/TODO.md",
     "Mathe/Trigonometrie/Trigonometrische Funktionen.md",
     "Mathe/Aufgaben/Aufgaben Random.md",
     "Mathe/Aufgaben",
@@ -209,13 +211,11 @@
     "Songs/Songs for Practice.md",
     "Songs/Songs finished.md",
     "Songs",
-    "Solitair/TODO.md",
     "Solitair",
     "Machine Learning/Books and Resources.md",
     "Machine Learning/Reinforcement learning.md",
     "Machine Learning/Semi-Supervised.md",
     "Machine Learning/Unsupervised.md",
-    "1_Ernährung/Körperwerte.md",
     "1_Ernährung/Ernährung Allgemein.md",
     "Music Theory/Chords/Chord Progression.md",
     "Music Theory/Picking Techniques/Travis Picking basics.md",
