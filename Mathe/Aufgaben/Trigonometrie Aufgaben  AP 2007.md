@@ -1,5 +1,5 @@
 ***
-## Aufgabe 4.1.1
+# Aufgabe 4.1.1
 + Gegeben sind die reellen Funktionen:
 $$
 \begin{align*}
@@ -13,7 +13,7 @@ $$
 + 4.1.0 In dieser Teilaufgabe gilt $a=1$
 + 4.1.1 Berechnen sie die Koordinaten der Schnittpunkte der Funktion $f_{1}$ und $g_{1}$
 
-# Schnittpunkte von $f_1$ und $g_1$
+## Schnittpunkte von $f_1$ und $g_1$
 
 Gegeben mit $a=1$:
 $$f(x) = -1 + 2\cos(x), \qquad g(x) = -1 + 2\sin(2x), \qquad x \in [0;2\pi]$$
