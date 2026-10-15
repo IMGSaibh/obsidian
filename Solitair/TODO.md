@@ -10,3 +10,4 @@
 + [ ] Man kann danach erneut denselben Deal starten und versuchen herauszufinden, **welche Entscheidung falsch war**.
 + [ ] Label das lösbare Deals erstellt werden entfernen
 + [ ] Ladebildschirm wenn lösbare Deals erstellt werden
++ [ ] Decor bauen
