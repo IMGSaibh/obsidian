@@ -1,0 +1,1 @@
+Agent.md file for Obsidian
