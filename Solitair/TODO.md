@@ -27,4 +27,4 @@
 + Lena Möchte den Wert der Verbindung bewahren indem sie ees vorerst nicht weiterentwickelt 
 + Ich finde schoen das ich bei dir ein Bewusstsein fuehle ueber eine moegliche Auswirkung auf meine Gefühle.
 + Ich mache mich nicht bewusst rar sondern weil ich denke das es mir damit besser geht.
-+ 
++ Ich habe keinen Gefühlsverlust
