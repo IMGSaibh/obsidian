@@ -8,7 +8,7 @@
 ***
 # Verbrauch
 
-Haferflocken Bowl
+### Haferflocken Bowl
 
 | Nahrungsmittel | kcal/100g | kcal/g | Gramm | Aufnahme in kcal |
 | :------------: | :-------: | ------ | :---: | ---------------- |
